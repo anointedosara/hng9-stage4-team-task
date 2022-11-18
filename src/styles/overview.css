@@ -52,4 +52,7 @@
     .overview {
         padding: 0px 45px 10px;
     }
+    .overview-grid div {
+        padding: 20px 20px;
+    }
 }

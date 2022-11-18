@@ -1,5 +1,6 @@
 const myApplicationData = [
     {
+        id: 1,
         image: './images/figma-logo.svg',
         title: 'Front-end Dev',
         description: 'Figma',
@@ -7,6 +8,7 @@ const myApplicationData = [
         time: '10 hours ago'
     },
     {
+        id: 2,
         image: './images/instagram-logo.svg',
         title: 'UI/UX Designer',
         description: 'Instagram',
@@ -14,6 +16,7 @@ const myApplicationData = [
         time: '19 hours ago'
     },
     {
+        id: 3,
         image: './images/web.svg',
         title: 'Web Designer',
         description: 'Globex Corporation ',
@@ -21,6 +24,7 @@ const myApplicationData = [
         time: '2 days ago'
     },
     {
+        id: 4,
         image: './images/pinterest-logo.svg',
         title: 'Visual Designer',
         description: 'Pinterest',
@@ -28,12 +32,45 @@ const myApplicationData = [
         time: '7 days ago'
     },
     {
+        id: 5,
         image: './images/google-logo.svg',
         title: 'Product Designer',
         description: 'Google',
         type: 'Full-Time',
         time: '2 weeks ago'
-    }
+    },
+    {
+        id: 6,
+        image: './images/google-logo.svg',
+        title: 'Product Designer',
+        description: 'Google',
+        type: 'Full-Time',
+        time: '2 weeks ago'
+    },
+    {
+        id: 7,
+        image: './images/google-logo.svg',
+        title: 'Product Designer',
+        description: 'Google',
+        type: 'Full-Time',
+        time: '2 weeks ago'
+    },
+    {
+        id: 8,
+        image: './images/google-logo.svg',
+        title: 'Product Designer',
+        description: 'Google',
+        type: 'Full-Time',
+        time: '2 weeks ago'
+    },
+    {
+        id: 9,
+        image: './images/google-logo.svg',
+        title: 'Product Designer',
+        description: 'Google',
+        type: 'Full-Time',
+        time: '2 weeks ago'
+    },
 ]
 
 export default myApplicationData

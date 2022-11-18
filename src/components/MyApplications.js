@@ -12,7 +12,7 @@ function MyApplications() {
         </div>
         <div className='applications'>
         {
-          data?.map((item, i) => <div className='application' key={i}>
+          data?.map((item, i) => <div className={item?.id > 5 ? 'hide application' : 'application'} key={i}>
             <div className='application-title'>
               <div className="img-div"><img src={item?.image} alt="" /></div>
               <div>
