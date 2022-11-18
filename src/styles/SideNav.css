@@ -1,0 +1,42 @@
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 23px;
+    gap: 149px;
+    background: #2E3192;
+    border-right: 0.5px solid #C6BDBD;
+    height: 100vh;
+    padding: 40px 0;
+}
+
+.sidenav button {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background: none;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 30px;
+    color: #7C7D9D;
+}
+
+.sidenav button:first-child {
+    color: white;
+}
+
+.sidenav button div {
+    height: 2px;
+    width: 80%;
+    background: white;
+    margin-top: 5px;
+}
+
+.sidenav button img {
+    margin-bottom: 10px;
+}

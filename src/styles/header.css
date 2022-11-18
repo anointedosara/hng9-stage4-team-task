@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #C6BDBD;
+    border-radius: 0px;
+    padding: 24px 81px;
+}
+
+.header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    color: #2E3192;
+}
+
+.header p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5E5D73;
+}
+
+.header-profile {
+    display: flex;
+    align-items: center;
+}
+
+.header-profile img:first-child {
+    margin-right: 30px;
+}
