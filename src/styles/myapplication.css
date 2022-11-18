@@ -1,0 +1,86 @@
+.container {
+    padding: 15px 81px 30px;
+}
+
+.myapplication {
+    background: #F5F6FE;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.myapplication p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F90A7;
+    margin: 0;
+}
+
+.myapplication p:last-child {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7C7BA8;
+}
+
+.myapplication-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 0;
+}
+
+.applications {
+    padding: 30px 30px 10px;
+}
+
+.application {
+    display: flex;
+    justify-content: space-between;
+    background: #FBFBFB;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 60px;
+}
+
+.application-title {
+    display: flex;
+}
+
+.application h1 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #171646;
+}
+
+.application p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7C7BA8;
+}
+
+.img-div {
+    background: #F5F6FE;
+    border-radius: 10px;
+    height: 43px;
+    width: 43px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .container {
+        padding: 15px 45px 30px;
+    }
+    .applications {
+        padding: 20px 0px 10px;
+    }
+    .myapplication-head {
+        padding: 0;
+    }
+}
