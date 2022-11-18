@@ -3,6 +3,7 @@
 @import url('./styles/SideNav.css');
 @import url('./styles/header.css');
 @import url('./styles/overview.css');
+@import url('./styles/myapplication.css');
 
 * {
     box-sizing: border-box;

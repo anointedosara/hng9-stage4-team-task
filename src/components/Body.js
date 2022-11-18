@@ -5,7 +5,7 @@ import Header from '../components/Header'
 
 function Body() {
   return (
-    <div>
+    <div className='body'>
       <Header />
       <Overview />
       <MyApplications />
