@@ -15,14 +15,14 @@
     margin: 0;
     font-weight: 700;
     font-size: 32px;
-    line-height: 29px;
+    line-height: 15px;
     color: #2E3192;
 }
 
 .header p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 15px;
     color: #5E5D73;
 }
 

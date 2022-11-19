@@ -19,7 +19,7 @@ const myApplicationData = [
         id: 3,
         image: './images/web.svg',
         title: 'Web Designer',
-        description: 'Globex Corporation ',
+        description: 'Globex',
         type: 'Remote',
         time: '2 days ago'
     },
