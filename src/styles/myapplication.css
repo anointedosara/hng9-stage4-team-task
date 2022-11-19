@@ -217,8 +217,12 @@
     }
     .newuser {
         height: calc(100vh - 75.8px - 329px - 72px);
+        font-size: 16px;
+        padding: 20px;
     }
     .newuser button {
         margin: 10px 0;
+        width: 170px;
+        font-size: 14px;
     }
 }
