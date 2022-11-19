@@ -3,9 +3,9 @@ import React from 'react'
 function SideNav() {
   return (
     <div className='sidenav'>
-        <img src="./images/logo.svg" alt="" />
+        <img className='logo' src="./images/logo.svg" alt="" />
 
-        <div>
+        <div className='sidenav-navigations'>
             <button>
                 <img src="./images/dashboard.svg" alt="" />
                 Dashboard

@@ -2,3 +2,10 @@
     display: grid;
     grid-template-columns: 135px calc(100% - 135px);
 }
+
+@media screen and (max-width: 768px) {
+    .dashboard {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

@@ -98,3 +98,76 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 30px;
+    }
+    .applications {
+        padding: 20px 0px 0px;
+    }
+    .myapplication-head {
+        padding: 0;
+    }
+    .myapplication {
+        padding: 20px 20px 10px;
+    }
+    .application {
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+    .hide {
+        display: flex;
+    }
+    .application h1 {
+        font-size: 18px;
+    }
+    .application p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 10px 15px;
+    }
+    .applications {
+        padding: 15px 0px 0px;
+    }
+    .myapplication-head {
+        padding: 0;
+    }
+    .myapplication {
+        padding: 10px;
+        align-items: center;
+    }
+    .application {
+        margin-bottom: 13px;
+        padding: 15px 10px;
+    }
+    .application:last-child {
+        margin-bottom: 0px;
+    }
+    .hide {
+        display: flex;
+    }
+    .application h1 {
+        font-size: 13px;
+    }
+    .myapplication p {
+        font-size: 20px;
+    }
+    .application p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .img-div {
+        height: 24px;
+        width: 24px;
+        border-radius: 7px;
+    }
+    .img-div img {
+        width: 13px;
+        height: 18px;
+    }
+}
