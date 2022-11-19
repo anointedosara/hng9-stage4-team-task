@@ -77,6 +77,36 @@
     display: none;
 }
 
+.newuser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 97.8px - 260px);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #171B1D;
+    padding: 0 30px;
+}
+
+.newuser button {
+    padding: 0px;
+    gap: 24px;
+    width: 240px;
+    height: 48px;
+    background: #2E3192;
+    border-radius: 8px;
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FBFBFF;
+}
+
+.newuser button img {
+    margin-left: 5px;
+}
+
 @media screen and (max-width: 1023px) {
     .container {
         padding: 30px 45px 30px;
@@ -96,6 +126,12 @@
     }
     .hide {
         display: flex;
+    }
+    .newuser {
+        height: calc(100vh - 75.8px - 380px - 99px);
+    }
+    .newuser button {
+        margin: 10px 0;
     }
 }
 
@@ -124,6 +160,12 @@
     }
     .application p {
         font-size: 15px;
+    }
+    .newuser {
+        height: calc(100vh - 75.8px - 380px - 99px);
+    }
+    .newuser button {
+        margin: 10px 0;
     }
 }
 
@@ -171,5 +213,11 @@
     .img-div img {
         width: 13px;
         height: 18px;
+    }
+    .newuser {
+        height: calc(100vh - 75.8px - 329px - 72px);
+    }
+    .newuser button {
+        margin: 10px 0;
     }
 }

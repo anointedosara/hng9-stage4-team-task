@@ -9,6 +9,10 @@
     color: #8F90A7;
 }
 
+.over {
+    margin-top: 60px;
+}
+
 .overview-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
