@@ -129,7 +129,7 @@
 
 @media screen and (max-width: 480px) {
     .container {
-        padding: 10px 15px;
+        padding: 10px 20px;
     }
     .applications {
         padding: 15px 0px 0px;
@@ -144,6 +144,7 @@
     .application {
         margin-bottom: 13px;
         padding: 15px 10px;
+        align-items: flex-start;
     }
     .application:last-child {
         margin-bottom: 0px;
@@ -165,6 +166,7 @@
         height: 24px;
         width: 24px;
         border-radius: 7px;
+        margin-right: 3px;
     }
     .img-div img {
         width: 13px;
