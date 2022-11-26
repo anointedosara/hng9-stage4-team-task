@@ -86,9 +86,6 @@
         display: flex;
         align-items: center;
     }
-    .header-profile img:first-child {
-        display: none;
-    }
     .header-profile img:last-child {
         width: 45px;
     }
